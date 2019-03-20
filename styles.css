@@ -1,0 +1,29 @@
+body {
+    font-family: "Bree Serif", sans-serif;
+    background-color:#282626;
+    
+}
+
+.container, .results {
+    width: 400px;
+    padding: 10px;
+    margin: 50px auto;
+    border: 5px solid #bbffff;
+    border-radius: 20px;
+    background-color:#4286f4 ;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+    }
+p {
+    font-family: 'Margarine', cursive;
+}
+h1{
+    font-family: 'Lobster', cursive;
+}
+.border-enter {
+    background-color:#3d858e ;
+    border-color:#674fc6 ;
+    border-style: double ;
+    border-width: 20px;
+}
